@@ -1,22 +1,20 @@
-# CourseList
-
 # Course Listing Web Application
 This is a React-based web application designed to showcase a list of courses with detailed views, alongside a student dashboard to track course progress and completion. The project features a course listing page, course details page, and a student dashboard with advanced state management implemented using Redux.
 
-# Features
+## Features
 1. Course Listing Page: Displays a list of courses, searchable by course name or instructor.
 2. Course Details Page: Provides detailed information for each course, including an expandable syllabus section.
 3. Student Dashboard: Allows students to view their enrolled courses and track progress. Courses can be marked as completed.
 4. Responsive Design: Optimized for a variety of screen sizes and devices.
 5. State Management: Implemented using Redux (or MobX) to handle global state efficiently.
 
-## Installation and Setup
-# Prerequisites
+# Installation and Setup
+## Prerequisites
 Node.js: Ensure you have Node.js installed. You can download it from here.
-# Install Dependencies
+## Install Dependencies
 ![image](https://github.com/user-attachments/assets/ca7d92a0-bede-4ff3-84bc-ee54fd62f3cc)
 
-# Run the Application
+## Run the Application
 ![image](https://github.com/user-attachments/assets/1d8fa0b8-1935-45ad-b0bb-0d49730a3935)
 
 This will start the development server. Open http://localhost:3000 to view it in the browser.
@@ -28,16 +26,16 @@ This will start the development server. Open http://localhost:3000 to view it in
 4. /src/courseModel.js: Mock data for course listing.
 
 ## Functionality
-# 1. Course Listing Page
+## 1. Course Listing Page
   Fetches a list of sample courses.
   Displays the courses with details like name, instructor, and an image.
   Provides search functionality to filter courses by name or instructor.
   Links to the course details page.
-# 2. Course Details Page
+## 2. Course Details Page
   Displays comprehensive details about the course.
   Includes an expandable/collapsible syllabus section.
   Shows information such as the instructor's name, description, enrollment status, duration, schedule, and prerequisites.
-# 3. Student Dashboard
+## 3. Student Dashboard
   Lists all the enrolled courses with progress tracking.
   Allows marking courses as completed.
   Displays a progress bar for each course.
