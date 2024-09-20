@@ -1,0 +1,142 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    box-sizing: border-box;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 200;
+  }
+  
+  h1 {
+    color: #939393;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  @media (min-width: 500px) {
+    h1 {
+      font-size: 1.6rem;
+      letter-spacing: 0.4rem;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    h1 {
+      font-weight: 200;
+      font-size: 2.2rem;
+      letter-spacing: 0.6rem;
+    }
+  }
+  
+  header {
+    color: white;
+    height: 250px;
+    padding: 40px 20px 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center left 58%;
+    /* background-image: url(images/071715_Heroku_9883-.jpg); */
+    background-size: cover;
+  }
+  
+  header .logo {
+    width: 86px;
+  }
+  
+  header .logo-text {
+    text-transform: uppercase;
+    font-size: 8px;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+  }
+  
+  .masthead-elements-row-1,
+  .masthead-elements-row-2 {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .masthead-elements-row-2 {
+    align-items: flex-end;
+  }
+  
+  .element-middle {
+    text-align: center;
+  }
+  
+  .textured-section {
+    background-color: rgb(161, 109, 59);
+    /* background-image: url(images/wood-texture.jpg); */
+    background-size: cover;
+  }
+  
+  .products,
+  .kits {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .products img,
+  .kits img {
+    width: 100%;
+  }
+  
+  .product-name,
+  .kit-name {
+    font-weight: 700;
+  }
+  
+  .btn {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: #333;
+  }
+  
+  .btn-hot {
+    background-color: rgb(240, 127, 63);
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  footer .trailer-logo,
+  footer .trailer-links {
+    flex: 1;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer .social-links img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  footer .internal-links a,
+  footer .social-links a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  footer .social-verb,
+  footer .social-name {
+    display: block;
+  }
+  
